@@ -1,0 +1,8 @@
+[package]
+name = "hello-world-rs-gae"
+version = "0.1.0"
+authors = ["Niklaas Baudet von Gersdorff <me@niklaas.eu>"]
+edition = "2018"
+
+[dependencies]
+actix-web = "0.7"
