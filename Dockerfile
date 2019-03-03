@@ -1,8 +1,5 @@
-FROM rust:1.33
+FROM scratch
 
-WORKDIR /usr/src/hello-world-rs-gae
-COPY . .
+COPY target/x86_64-unknown-linux-musl/release/hello-world-rs-gae .
 
-RUN cargo install --path .
-
-CMD ["hello-world-rs-gae"]
+ENTRYPOINT ["./hello-world-rs-gae"]

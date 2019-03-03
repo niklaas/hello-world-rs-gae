@@ -1,2 +1,8 @@
 runtime: custom
 env: flex
+skip_files:
+  - ^target/debug/.*$
+  - ^target/release/.*$
+  - ^target/rls/.*$
+  - ^build.sh$
+  - ^Dockerfile.multi-stage$
