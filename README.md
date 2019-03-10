@@ -14,7 +14,7 @@ automatically scaling REST-Endpoint.
 
 - `Dockerfile` is used by Google App Engine as runtime for the project. It is
   very minimal and only includes the statically-linked binary.
-- `build.sh` is used [rust-musl-builder][rmb] to build the statically linked
+- `build.sh` uses [rust-musl-builder][rmb] to build the statically linked
   binary i.e., the server.
 
 # Instructions
